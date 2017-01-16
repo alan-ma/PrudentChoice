@@ -13,7 +13,7 @@ var content = [
 ];
 
 function load() {
-	$('.nav').append('<h4 data-link="#0">Prudent Choice</h4>');
+	$('.nav').append('<h4 data-link="#0" id="topNav">Prudent Choice</h4>');
 	$('.nav').append('<h4 data-link="#1">Abstract</h4>');
 	$('.nav').append('<h4 data-link="#2">Companies</h4>');
 	for (i=0; i<content.length; i++) {
@@ -41,5 +41,10 @@ $(document).ready(function() {
 		$('html,body').animate({
 		   scrollTop: 0
 		});
-	})
+	});
+	$('#topNav').click(function() {
+		$('html,body').animate({
+		   scrollTop: 0
+		});
+	});
 })
