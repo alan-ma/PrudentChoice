@@ -48,7 +48,10 @@ p, li, a {
 	padding: 0 0 31px 0;
 	border-bottom: 1px solid #E2E2E2;
 }
-.nav h4:hover, .nav h5:hover, .nav h6:hover {
+.nav h4 {
+	margin: 10px 0;
+}
+.nav h4:hover {
 	color: #1976D2;
 	cursor: pointer;
 }
