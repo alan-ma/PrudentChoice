@@ -86,6 +86,14 @@ p, li, a {
 	margin: 5px 10px;
 	font-weight: 400;
 }
+.main h6 i {
+	font-size: 1rem;
+	margin: 0;
+	color: #888;
+}
+.main h6 i a {
+	color: inherit;
+}
 .main p, .main li {
 	font-size: 1.2rem;
 	color: #333;
